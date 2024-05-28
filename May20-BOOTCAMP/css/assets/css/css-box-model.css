@@ -1,0 +1,54 @@
+body{
+  background-color: lightgreen;
+}
+.container{
+  border: 10px solid yellow;
+  margin: 10px 20px 30px 40px;
+  padding: 10px 20px 30px 40px;
+}
+.solid{
+  width: 75%;
+  border: 5px solid tomato;
+  margin: 10px 20px 30px 40px;
+  text-align: center;
+}
+.dotted{
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+  border: 5px dotted teal;
+  text-align: right;
+}
+.dashed{
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+  border: 5px dashed fuchsia;
+  text-align: left;
+}
+.double{
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+  border: 5px double blue;
+  text-align: center;
+}
+.groove{
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+  border-top: 5px groove yellow;
+  text-align: center;
+}
+.radius{
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+  border: 10px solid red;
+  border-radius: 60px;
+  text-align: center;
+}
+.test{
+  width: 75%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: tomato;
+  /* border: 5px solid tomato; */
+  margin: 10px 20px 30px 40px;
+  text-align: center;
+}

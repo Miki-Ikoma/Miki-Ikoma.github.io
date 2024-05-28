@@ -1,0 +1,52 @@
+/* Semantic Tags */
+/* Semantic Tags have class name already */
+h1 {
+  position: absolute;
+}
+img {
+  z-index: -1;
+}
+/* <nav> ≈ <div class="nav"> */
+nav {
+  width: 100%;
+  background-color: tomato;
+}
+
+ul li {
+  display: inline;
+  text-align: left;
+  padding: 5px;
+}
+
+header, nav, section, article, aside, footer {
+  padding: 20px;
+  margin: 10px;
+}
+
+section {
+  background-color: cadetblue;
+  width: 70%;
+  flex: 1 1 60%;
+}
+
+article {
+  background-color: #fff;
+}
+
+aside {
+  background-color: aqua;
+  width: 25%;
+  flex: 1 1 30%;
+  order: 1;
+}
+
+footer {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+}
+.main {
+  display: flex;
+  /* If I don't set the below property, <aside> is a side area on the web page. */
+  /* flex-wrap: wrap; */
+}

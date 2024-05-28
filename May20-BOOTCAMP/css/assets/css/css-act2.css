@@ -1,0 +1,28 @@
+body {
+  background-color: bisque;
+}
+.div-cards {
+  width: 100%;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.name {
+  font-weight: bold;
+}
+.card-john, .card-jane {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px 1px gray;
+}
+.img-jane {
+  border-radius: 15px 15px 0 0;
+}
+.card-jane {
+  border-radius: 15px 15px 0 0;
+}                                         
+.text-container {
+  padding: 10px;
+}

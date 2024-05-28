@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Form Example</title>
+</head>
+<body>
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+<br>
+
+    <label for="message">Message:</label>
+    <textarea name="message" id="message">
+  </textarea>
+<br>
+
+  <input type="submit" value="Submit">
+  </form>
+
+<div>
+  <h2>Another Example of Form</h2>
+  <form action="#">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password1" name="password">
+    <br>
+
+    <label for="remember">
+      <input type="checkbox" id="remember" name="remember">
+      Remember me
+    </label>
+    <br>
+
+    <label for="geder">Gender:</label>
+    <select name="gender" id="gender">
+      <option value="">Select Gender</option>
+      <option value="Male">Male</option>
+      <option value="Femail">Femail</option>
+    </select>
+    <br>
+
+    <label for="interest">Interest:</label><br>
+    <label for="interest-books">
+      <input type="checkbox" id="interest-books" name="interest[]" value="books">Books</label>
+      <br>
+
+      <label for="interest-music">
+        <input type="checkbox" id="interest-music" name="interest[]" value="music">Music</label>
+        <br>
+
+        <label for="interest-movie">
+          <input type="checkbox" id="interest-movies" name="interest[]" value="music">Movies</label>
+          <br>
+
+          <input type="submit" value="submit">
+  </form>
+</div>
+
+</body>
+</html>

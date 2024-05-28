@@ -1,0 +1,37 @@
+.normal{
+  font-style: normal;
+}
+.italic{
+  font-style: italic;
+}
+.oblique{
+  font-style: oblique;
+}
+/* TEXT-TRANSFORM */
+.upper{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.lower{
+  text-transform: lowercase;
+}
+.capitalized{
+  text-transform: capitalize;
+}
+
+/* TEXT-DECORATION */
+.overline{
+  text-decoration: overline;
+  text-align: left;
+}
+.underline{
+  text-decoration: underline;
+  text-align: center;
+}
+.line-through{
+  text-decoration: line-through;
+  text-align: right;
+}
+h1{
+  text-shadow: 2px 2px 5px #961204;
+}

@@ -1,0 +1,43 @@
+.hidden{
+  background-color: cornflowerblue;
+  border: 1px solid #ccc;
+  height: 100px;
+  width: 30%;
+  overflow: hidden;
+  padding: 10px;
+  margin: 20px;
+}
+.auto{
+  background-color: rgb(216, 104, 231);
+  border: 1px solid rgb(221, 82, 105);
+  height: 100px;
+  width: 30%;
+  overflow: auto;
+  padding: 10px;
+  margin: 20px;
+}
+.scroll{
+  background-color: rgb(226, 210, 120);
+  border: 1px solid rgb(247, 162, 52);
+  height: 100px;
+  width: 30%;
+  overflow: scroll;
+  padding: 10px;
+  margin: 20px;
+}
+.visible{
+  background-color: rgb(134, 236, 126);
+  border: 1px solid rgb(24, 84, 36);
+  height: 100px;
+  width: 30%;
+  overflow: visible;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Box Shadow */
+.box-shadow{
+  margin: 550px 100px;
+  border: 1px solid black;
+  box-shadow: 10px 15px 20px 5px red;
+}

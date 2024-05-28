@@ -1,0 +1,9 @@
+ul{
+  list-style: none;
+  margin-left: 2em;
+}
+
+ol{
+  list-style-type: lower-roman;
+  margin-bottom: 0.5em;
+}

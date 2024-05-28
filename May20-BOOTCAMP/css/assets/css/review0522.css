@@ -1,0 +1,117 @@
+body{
+  background-color: azure;
+}
+p{
+  color: chocolate;
+  background-color: beige;
+  font-size: larger;
+}
+.name{
+  color: black;
+  font-size: 35px;
+  background-color: tomato;
+}
+#name{
+  color: blueviolet;
+  background-color: bisque;
+  font-size: 45px;
+}
+
+/* Color */
+.color{
+  background-color: white;
+  color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border: 1px solid #45404099;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.h2color{
+  color: firebrick;
+  text-shadow: 2px 2px 0.3px rgba(62, 10, 10, 0.647);
+}
+
+/* Font */
+.h2font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pfont{
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+font-weight: bold;
+}
+
+/* Font Style */
+.pfontstylenormal{
+  font-style: normal;
+}
+.pfontstyleitalic{
+  font-style: italic;
+}
+.pfontstyleoblique{
+  font-style: oblique;
+}
+
+/* Text Transform */
+.upper{
+  text-transform: uppercase;
+}
+.lower{
+  text-transform: lowercase;
+}
+.capitalized{
+  text-transform: capitalize;
+}
+
+/* Decoration */
+.overline{
+  text-decoration: overline;
+}
+.underline{
+  text-decoration: underline;
+}
+.line-through{
+  text-decoration: line-through;
+}
+
+/* Text Align */
+.alignleft{
+  text-align: left;
+}
+.aligncenter{
+  text-align: center;
+}
+.alignright{
+  text-align: right;
+}
+
+/* Text Shadow */
+.h2shadow{
+  text-shadow: 2px 2px 5px #961204;
+}
+
+/* Text Indent */
+.indent-em{
+  text-indent: 5em;
+}
+
+/* Letter Spacing */
+.h2letterspacing{
+  letter-spacing: 10px;
+}
+.pletterspacing{
+  word-spacing: 20px;
+}
+
+/* Lists */
+ul{
+  list-style: circle inside;
+  margin-left: 2em;
+}
+
+ol{
+  list-style-type: upper-alpha;
+}
+
+li{
+  margin-bottom: 0.5em;
+}

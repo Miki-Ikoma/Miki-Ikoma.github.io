@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review</title>
+</head>
+<body>
+  <table border = "1">
+<thead>
+  <tr>
+    <th>th1</th>
+    <th>th2</th>
+    <th>th3</th>
+    <th>th4</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>td1</td>
+    <td>td2</td>
+    <td>td3</td>
+    <td>td4</td>
+  </tr>
+  <tr>
+    <td>td5</td>
+    <td>td6</td>
+    <td>td7</td>
+    <td>td8</td>
+  </tr>
+  <tr>
+    <td>td9</td>
+    <td>td10</td>
+    <td>td11</td>
+    <td>td12</td>
+  </tr>
+  <tr>
+    <td>td13</td>
+    <td>td14</td>
+    <td>td15</td>
+    <td>td16</td>
+  </tr>
+  <tr>
+    <td colspan="3">td17-colspan3</td>
+    <td>td18</td>
+  </tr>
+  <tr>
+    <td colspan="3">td19-colspan3</td>
+    <td>td20</td>
+  </tr>
+  <tr>
+    <td colspan="3">td21-colspan3</td>
+    <td>td22</td>
+  </tr>
+
+  <br>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Name1</td>
+        <td rowspan="2">Age1</td>
+        <td>City3</td>
+      </tr>
+      <tr>
+        <td>City1-2</td>
+      </tr>
+      <tr>
+        <td>Name2</td>
+        <td>Age2</td>
+        <td>City2</td>
+      </tr>
+      <tr>
+        <td>Name3</td>
+        <td>Age3</td>
+        <td>City3</td>
+      </tr>
+    </tbody>
+  </table>
+</tbody>
+  </table>
+  <br>
+  <hr>
+  <br>
+
+  <!-- Simple Form Example -->
+  <form action="#">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+
+    <label for="massage">Massage:</label>
+    <textarea name="massage" id="massage"></textarea>
+    <br>
+
+    <input type="submit" value="submit">
+  </form>
+  <br>
+  <hr>
+
+  <h2>Another Example of Form</h2>
+  <div>
+    <form action="#">
+      <label for="username">Username:</label>
+      <input type="text" id="username">
+      <br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password2" name="password">
+      <br>
+
+      <label for="remember">
+        <input type="checkbox" id="remember" name="remember">Remember me (The label includes the checkbox.)
+      </label>
+      <br>
+
+      <label for="remember2"></label>
+        <input type="checkbox" id="remember2" name="remember2">Remember me (The label doesn't include the checkbox.)
+        <br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Femaile">Femaile</option>
+        </select>
+        <br>
+      
+        <label for="interest">Interest:</label>
+        <br>
+        <label for="interest-books" id="interest-books" name="interest[]" value="books">
+          <input type="checkbox">Books
+        </label>
+        <br>
+
+        <label for="interest-music">
+          <input type="checkbox" id="interest-music" name="interest[]" value="music">Music
+        </label>
+        <br>
+
+        <label for="interest-movies">
+          <input type="checkbox" id="interest-movies" name="interest[]" value="movies">Movies
+        </label>
+        <br>
+
+        <input type="submit" value="submit">
+        <br>
+    </form>
+  </div>
+  <hr>
+  
+</body>
+</html>
